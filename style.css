@@ -1,0 +1,187 @@
+html,body{
+	margin: 0;
+	padding-top: 60px;
+	overflow-x: hidden;
+}
+
+body > div{
+	padding: 0 200px 0 200px;
+}
+
+a{
+	text-decoration: none;
+}
+
+#navbar{
+	top:0;
+	position: fixed;
+	display: block;
+	padding-top: 60px;
+	margin-top: -60px;
+
+	z-index: 999;
+	width: 100%;
+
+	background-color: black;
+	
+}
+#navbar h1,a{
+	display: inline-block;
+}
+#navbar h1{
+	color: white;
+	
+}
+
+#navbar a:not(:first-child){
+	
+	padding:30px;
+	color:white;
+	font-size: 14pt;
+	font-family: Microsoft YaHei Light;
+}
+#navbar a:not(:first-child):hover{
+	color: black;
+	background-color: #eee; 
+}
+
+div.content:not(:last-child){
+	padding: 60px 300px 60px 250px; 
+	display: flex;
+}
+#pred{
+	height: 60px;
+}
+#home {	
+	display: flex;
+	position: relative;
+	justify-content: space-around;
+	padding-bottom: 15%;
+}
+#backg{
+	border-radius: 50%;
+	height: 550px;
+}
+.content h1{
+	font-size: 54pt;
+}
+#home h1{
+	padding-top: 20%;
+}
+#home p{
+	margin-top: -20px;
+}
+p{
+	font-family: Microsoft YaHei Light;
+	font-size: 20px;
+}
+#about{
+	
+	display: flex;
+	padding-top: 10%;
+	
+	padding-bottom:15%;
+}
+
+#profile{
+	border-radius: 50%;
+	height: 200px;
+
+}
+
+#about #right{
+	float: right;
+	padding-left: 40px;
+}
+
+#about a{
+	color: rgb(228,147,56);
+}
+#about a:hover{
+	color: black;
+}
+
+#work{
+	padding-top:5%;
+    	
+    	position:absolute;
+	margin: 0 auto;
+	left:300px;
+	width:100%;
+	
+}
+ul{
+	list-style:none;	
+}
+#album ul {	
+	padding-top: 15%;	
+}
+
+#album ul li div p:first-of-type{
+	font-size: 36px;
+	font-weight: bold;
+}
+#album ul li:nth-of-type(1) img{
+	height: 820px;
+}
+#album ul li:nth-of-type(1) div{
+	position: relative;
+	left: 650px;
+	top:-550px;
+}
+
+#album ul li:nth-of-type(2) img{
+	width: 600px;
+}
+#album ul li:nth-of-type(2) div{
+	position: relative;
+	left: 650px;
+	top:-350px;
+}
+#album ul li:nth-of-type(4){
+	position: relative;
+	left:-90px;
+}
+#album ul li:nth-of-type(3) img{
+	height: 820px;
+}
+#album ul li:nth-of-type(3) div{
+	position: relative;
+	left: 650px;
+	top:-550px;
+}
+#album ul li:nth-of-type(4) img{
+	height: 460px;
+}
+#album ul li:nth-of-type(4) div{
+	position: relative;
+	left: 920px;
+	top:-370px;
+	width:600px;
+	line-height: 32px;
+}
+#contact {
+	padding-top: 10%;
+	display:flex;
+	flex-direction: row;
+}
+
+#contact ul li{
+	display:flex;
+}
+#contact ul li p{
+	position:relative;
+	padding-left:10px;
+	top:-15px;
+}
+#contact ul li img{
+	height:30px;
+}
+#contact .right img{
+	float:bottom;
+	height:1020px;
+	padding-left: 100px;
+	margin-top:-400px;
+	
+}
+
